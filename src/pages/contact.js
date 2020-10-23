@@ -1,4 +1,5 @@
 import React from 'react'
+import TextField from "@material-ui/core/TextField";
 const encode = (data) => {
     return Object.keys(data)
         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -34,11 +35,7 @@ class Contact extends React.Component {
                 <h1>Con Bot field</h1>
                 <form onSubmit={this.handleSubmit} name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="contact" />
-                    <p>
-                        <label>
-                            Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
-                        </label>
-                    </p>
+                    <TextField label="Standard" type={"text"} name={"name"} value={name} onChange={this.handleChange}/>
                     <p>
                         <label>
                             Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />

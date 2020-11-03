@@ -1,0 +1,11 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2.5% 0 0 0;
+}

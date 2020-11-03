@@ -1,0 +1,54 @@
+.work-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.project-frame-container{
+    margin-top: 7.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.project-title{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px !important;
+    text-decoration: underline;
+    color: #0D0D0D !important;
+}
+
+.project-frame-container{
+    --border-width: 5px;
+    position: relative;
+    border-radius: var(--border-width);
+}
+.project-frame-container::after {
+     position: absolute;
+     content: "";
+     top: calc(-1 * var(--border-width));
+     left: calc(-1 * var(--border-width));
+     z-index: -1;
+     width: calc(100% + var(--border-width) * 2);
+     height: calc(100% + var(--border-width) * 2);
+     background: linear-gradient(
+             60deg,
+             #343434,
+             #700000,
+             #0D0D0D,
+             #700000,
+             #000000,
+             #a62929,
+             #0D0D0D,
+             #9C1200
+     );
+     background-size: 300% 300%;
+     background-position: 0 50%;
+     border-radius: calc(2 * var(--border-width));
+     animation: moveGradient 4s alternate infinite;
+}
+
+@keyframes moveGradient {
+    50% {
+        background-position: 100% 50%;
+    }
+}

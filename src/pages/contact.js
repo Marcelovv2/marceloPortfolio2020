@@ -1,5 +1,8 @@
 import React from 'react'
 import TextField from "@material-ui/core/TextField";
+import Button from "@material-ui/core/Button";
+import {Typography} from "@material-ui/core";
+import './styles/contactStyles.css';
 const encode = (data) => {
     return Object.keys(data)
         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -11,16 +14,25 @@ class Contact extends React.Component {
         super(props);
         this.state = { name: "", email: "", message: "" };
     }
-
-    /* Here’s the juicy bit for posting the form submission */
-
     handleSubmit = e => {
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...this.state })
         })
-            .then(() => alert("Success!"))
+            .then(() => {
+                alert("Success!")
+                this.setState({
+                    name: ""
+                })
+                this.setState({
+                    email: ""
+                })
+                this.setState({
+                    message: ""
+                })
+
+            })
             .catch(error => alert(error));
 
         e.preventDefault();
@@ -31,23 +43,15 @@ class Contact extends React.Component {
     render() {
         const { name, email, message } = this.state;
         return (
-            <div>
-                <h1>Con Bot field</h1>
+            <div className={'contactContainer'}>
+                <Typography variant={'h1'}>Contact me</Typography>
                 <form onSubmit={this.handleSubmit} name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="contact" />
-                    <TextField label="Standard" type={"text"} name={"name"} value={name} onChange={this.handleChange}/>
+                    <TextField className={'contactInput'} label="Name" type={"text"} name={"name"} value={name} variant={"outlined"} onChange={this.handleChange} color={"primary"} />
+                    <TextField className={'contactInput'} label="Email" type={"text"} name={"email"} value={email} variant={"outlined"} onChange={this.handleChange} color={"primary"}/>
+                    <TextField className={'contactInput'} multiline rows={5} label="Message" name="message" value={message} variant={"outlined"} onChange={this.handleChange} color={"primary"} />
                     <p>
-                        <label>
-                            Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            Message: <textarea name="message" value={message} onChange={this.handleChange} />
-                        </label>
-                    </p>
-                    <p>
-                        <button type="submit">Send</button>
+                        <Button type="submit" variant={"outlined"} size={"large"}>Send</Button>
                     </p>
                 </form>
             </div>

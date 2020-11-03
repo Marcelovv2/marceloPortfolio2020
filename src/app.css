@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/dns5may.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
   scroll-behavior: smooth;
 }
@@ -9,6 +11,7 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NSIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNzUiIGhlaWdodD0iMTAwIiBmaWxsPSIjZmFmYWZhIj48L3JlY3Q+CjxjaXJjbGUgY3g9Ijc1IiBjeT0iNTAiIHI9IjI4LjMlIiBzdHJva2Utd2lkdGg9IjEyIiBzdHJva2U9IiNmNmY2ZjYiIGZpbGw9Im5vbmUiPjwvY2lyY2xlPgo8Y2lyY2xlIGN4PSIwIiByPSIyOC4zJSIgc3Ryb2tlLXdpZHRoPSIxMiIgc3Ryb2tlPSIjZjRmNGY0IiBmaWxsPSJub25lIj48L2NpcmNsZT4KPGNpcmNsZSBjeT0iMTAwIiByPSIyOC4zJSIgc3Ryb2tlLXdpZHRoPSIxMiIgc3Ryb2tlPSIjZjJmMmYyIiBmaWxsPSJub25lIj48L2NpcmNsZT4KPC9zdmc+");
 }
 
 a {

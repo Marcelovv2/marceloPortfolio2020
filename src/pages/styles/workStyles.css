@@ -52,7 +52,14 @@
         background-position: 100% 50%;
     }
 }
-
+.project-frame-container{
+    width: 100%;
+    height: auto;
+}
+.project-img{
+    width: 100%;
+    height:auto;
+}
 @media screen and (min-width:1025px) {
     .project-container{
         display: flex;

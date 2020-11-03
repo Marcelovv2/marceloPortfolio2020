@@ -20,9 +20,7 @@ a {
   font-weight: bold;
 }
 
-img {
-  max-width: 100%;
-}
+
 
 nav {
   width: 100%;
@@ -37,4 +35,33 @@ nav a {
 
 .content {
   padding: 1rem;
+}
+
+@media screen and (min-width:1025px) {
+  .content:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .content > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .homeContainer,
+  .project-container,
+  .about-container,
+  .contactContainer{
+    max-width: 1000px;
+  }
+  .img-background {
+    top: 15%;
+    -webkit-clip-path: polygon(26.48% 22.33%, 44.59% 12.33%, 70.72% 2.66%, 74.42% 67.33%, 68.11% 91.66%, 59.98% 99.53%, 42.66% 103.28%, 35.38% 98.75%, 31.68% 87.32%, 26.69% 42.72%);
+    clip-path: polygon(26.48% 22.33%, 44.59% 12.33%, 70.72% 2.66%, 74.42% 67.33%, 68.11% 91.66%, 59.98% 99.53%, 42.66% 103.28%, 35.38% 98.75%, 31.68% 87.32%, 26.69% 42.72%);
+  }
+
 }

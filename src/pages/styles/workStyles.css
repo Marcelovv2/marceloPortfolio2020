@@ -52,3 +52,23 @@
         background-position: 100% 50%;
     }
 }
+
+@media screen and (min-width:1025px) {
+    .project-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-frame-container{
+        width: 400px;
+        height: 280px;
+    }
+    .project-img{
+        width: 100%;
+        height:auto;
+    }
+    .about-paper {
+        margin: 15.5% 0 5% 0;
+    }
+}

@@ -25,12 +25,12 @@ const useStyles = makeStyles((theme) => ({
 
 export default () => (
     <div className={'about-container'}>
-        <Typography variant={'h1'} className={'mainName'}>Latest Projects</Typography>
+        <Typography variant={'h1'} className={'mainName'}>Some Projects</Typography>
         <div className={'project-container'}>
             <div className={'project-frame-container'}>
                 <img src={polyLines} className={'project-img'}/>
             </div>
-            <Link to={'/'}>
+            <Link to={'/polyLines'}>
                 <Typography variant={'h6'} className={'project-title'} color={'secondary'}>
                     PolyLines Design
                 </Typography>
@@ -40,7 +40,7 @@ export default () => (
             <div className={'project-frame-container'}>
                 <img src={reachOut} className={'project-img'}/>
             </div>
-            <Link to={'/'}>
+            <Link to={'/ReachOut'}>
                 <Typography variant={'h6'} className={'project-title'} color={'secondary'}>
                     Reach Out
                 </Typography>
@@ -50,7 +50,7 @@ export default () => (
             <div className={'project-frame-container'}>
                 <img src={teladoc} className={'project-img'}/>
             </div>
-            <Link to={'/'}>
+            <Link to={'/teladoc'}>
                 <Typography variant={'h6'} className={'project-title'} color={'secondary'}>
                     Teladoc Internal Portal
                 </Typography>

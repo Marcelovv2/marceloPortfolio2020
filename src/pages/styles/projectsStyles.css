@@ -1,0 +1,15 @@
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.project-image{
+    width: 100%;
+    max-height: 25%;
+    border: 5px solid #0D0D0D;
+    border-radius: 2.5px;
+}
+
+@media screen and (min-width:1025px) {
+
+}

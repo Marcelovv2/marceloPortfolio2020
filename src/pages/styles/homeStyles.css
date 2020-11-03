@@ -27,7 +27,8 @@
 }
 .mini-about-container{
     position: relative;
-    margin: 50% 0 0 0;
+    margin: 30% 0 5% 0;
+    min-height: 450px;
 }
 .about-paper{
     position: absolute;
@@ -37,6 +38,7 @@
     z-index: 2;
     display: flex;
     flex-direction: column;
+    margin: 0 0 5% 0;
 }
 .img-background{
     position: absolute;
@@ -45,45 +47,13 @@
     background: rgb(2,0,36);
     width: 50%;
     height: 150px;
-    clip-path: polygon(27.67% 33%, 67.73% 35%, 71.73% 50%, 70.92% 50%, 70.51% 75%, 37.61% 77.04%, 29% 77.05%, 27.63% 64.72%)
+    background-image: url("../../assets/spaceTravel.gif");
+    background-position: top;
+    clip-path: polygon(31.17% 38.33%, 59.57% 26.33%, 72.9% 44%, 74.42% 67.33%, 69.93% 87.66%, 55.07% 102.2%, 44.16% 103.29%, 32.64% 70.75%, 25.87% 57.39%);
 }
 .glasses-img{
     position: absolute;
     right: 0;
     z-index: 1;
     width: 45%;
-}
-
-/*.img-background {*/
-/*    background: linear-gradient(74deg, #525252, #f0f0f0, #3c4341, #d22727, #231f1f);*/
-/*    background-size: 1000% 1000%;*/
-/*    -webkit-animation: GlassesAnimation 5s ease infinite;*/
-/*    -moz-animation: GlassesAnimation 5s ease infinite;*/
-/*    -o-animation: GlassesAnimation 5s ease infinite;*/
-/*    animation: GlassesAnimation 5s ease infinite;*/
-/*}*/
-
-/*@-webkit-keyframes GlassesAnimation {*/
-/*    0%{background-position:0% 83%}*/
-/*    50%{background-position:100% 18%}*/
-/*    100%{background-position:0% 83%}*/
-/*}*/
-/*@-moz-keyframes GlassesAnimation {*/
-/*    0%{background-position:0% 83%}*/
-/*    50%{background-position:100% 18%}*/
-/*    100%{background-position:0% 83%}*/
-/*}*/
-/*@-o-keyframes GlassesAnimation {*/
-/*    0%{background-position:0% 83%}*/
-/*    50%{background-position:100% 18%}*/
-/*    100%{background-position:0% 83%}*/
-/*}*/
-/*@keyframes GlassesAnimation {*/
-/*    0%{background-position:0% 83%}*/
-/*    50%{background-position:100% 18%}*/
-/*    100%{background-position:0% 83%}*/
-/*}*/
-
-.img-background {
-    background-image: url("../../assets/spaceTravel.gif");
 }

@@ -99,13 +99,6 @@ function App() {
   return (
       <ThemeProvider theme={theme}>
           <Root>
-              {/*<nav>*/}
-              {/*    <Link to="/">Home</Link>*/}
-              {/*    <Link to="/about">About</Link>*/}
-              {/*    <Link to="/blog">Blog</Link>*/}
-              {/*    <Link to="/dynamic">Dynamic</Link>*/}
-              {/*    <Link to="/contact">Contact</Link>*/}
-              {/*</nav>*/}
               <NavBar />
               <div className="content">
                   <React.Suspense fallback={<em>Loading...</em>}>

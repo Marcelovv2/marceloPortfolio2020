@@ -1,6 +1,7 @@
 import React from 'react'
 import {Typography} from "@material-ui/core";
 import './styles/homeStyles.css';
+import './styles/responsiveGlasses.css';
 import {makeStyles} from "@material-ui/core/styles";
 import { Link } from 'components/Router'
 import glassesImg from '../assets/withShadesNoGlassPop.png';

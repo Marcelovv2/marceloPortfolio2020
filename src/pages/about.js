@@ -36,11 +36,11 @@ export default () => {
                     relationship, and that if we combine our creative powers we can make great things happen.
                 </Typography>
                 <Typography variant={'body1'} color={'primary'}>
-                    I specialize in creating User Interfaces and developing web sites and web applications. My career
+                    I specialize in creating User Interfaces and developing websites and web applications. My career
                     started when I was a salesman for an education company and decided that I wanted to be able to
-                    create something by myself. This lead me in a discovery phase that took me to lose my fear of
-                    creating technology, from there I have been studying the art and science of design and the information
-                    technologies, now I can confidently navigate the process from idea, conceptualization, requirements
+                    create something by myself. This lead me into a discovery phase where I lose the fear of
+                    creating technology, from there I have been studying the art and science of design and information
+                    technologies, now I can confidently navigate the process from idea, requirements
                     elicitation, prototype design, graphic design, programming, team management to final delivery and
                     maintenance, of course this depends on the size of the project but gratefully I been involved in all
                     the stages.

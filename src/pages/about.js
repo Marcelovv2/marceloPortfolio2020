@@ -36,10 +36,10 @@ export default () => {
                     relationship, and that if we combine our creative powers we can make great things happen.
                 </Typography>
                 <Typography variant={'body1'} color={'primary'}>
-                    I specialize in creating User Interfaces and developing web sites and web applications, my career
+                    I specialize in creating User Interfaces and developing web sites and web applications. My career
                     started when I was a salesman for an education company and decided that I wanted to be able to
-                    create something by my self. This lead me in a discovery face that took me to loose my fear of
-                    creating technology, from there I been studying the art and science of design and the information
+                    create something by myself. This lead me in a discovery phase that took me to lose my fear of
+                    creating technology, from there I have been studying the art and science of design and the information
                     technologies, now I can confidently navigate the process from idea, conceptualization, requirements
                     elicitation, prototype design, graphic design, programming, team management to final delivery and
                     maintenance, of course this depends on the size of the project but gratefully I been involved in all
@@ -48,7 +48,7 @@ export default () => {
                 <br/><br/>
                 <Typography variant={'body1'} color={'primary'}>
                     I love problem solving and learning new things.<br/>
-                    I also love good people🕺💃🏽, good food🍲, good wine🍷, good beer🍻, good laughs🤣, killer workouts🏋️‍♂️and
+                    I also love family and friends 👨‍👩‍👦‍👦🧍⛹️, good food🍲, good wine🍷, good beer🍻, good laughs🤣, killer workouts🏋️‍♂️and
                     interesting stuff🌋.
                 </Typography>
             </Paper>

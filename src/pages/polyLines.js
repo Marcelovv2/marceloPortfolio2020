@@ -32,11 +32,12 @@ export default () => {
             <div className={'about-container'}>
                 <Paper elevation={2} className={classes.aboutPaper}>
                     <Typography variant={'body1'} color={'primary'}>
-                        PolyLines Design is an interior design startup that needed a web app from the ground up,
-                        because of their new status they didn't have anything built but a lot of knowledge of their industry
-                        after a discovery face where we laid down the goals and requirements we build two different apps
+                        PolyLines Design is an interior design startup that needed a web app from the ground up.
+                        Because of their new status they didn't have anything built but a lot of knowledge of their industry,
+                        after a discovery face where we laid out the goals and requirements we build two different apps,
                         one for the admin side that encompasses product and clients management and another app for the store front,
-                        the store front is not an eCommerce portal hence the need to build it from scratch.
+                        the store front is not an eCommerce portal hence the need to build it from scratch.<br/>
+                        On this project I worked on:
                     </Typography>
                     <List>
                         <ListItem><Typography variant={'body1'} color={'primary'}>Branding design.</Typography></ListItem>

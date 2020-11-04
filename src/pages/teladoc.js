@@ -33,9 +33,10 @@ export default () => {
                 <Paper elevation={2} className={classes.aboutPaper}>
                     <Typography variant={'body1'} color={'primary'}>
                         This project was done through a contract for Vision Inc, Teladoc needed a re-branding of their internal engagement
-                        portal this was use by their associates to get communications materials like printed and email, the portal was built
-                        on a .NET stack with a generic look, they hired a separate agency to do a web design and our job consisted of
-                        translating the web design to the source code of Vision plus some additional features.
+                        portal, this was use by their associates to deliver communications materials like printed and email.
+                        The portal was built on a .NET stack with a generic look. Teladoc hired a separate agency to do the web design and our job consisted of
+                        translating the web design to the source code of Vision plus some additional features.<br/>
+                        On this project I worked on:
                     </Typography>
                     <List>
                         <ListItem><Typography variant={'body1'} color={'primary'}>Front end development.</Typography></ListItem>

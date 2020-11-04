@@ -35,7 +35,8 @@ export default () => (
               <Typography variant={'body1'} color={'primary'}>
                   Hello 👋🏼 fellow human,
                   <br/><br/>
-                  If you need a website or something to complement your web project I can help you, my focus is on user interface design and front end development.
+                  If you need a website or something to complement your web project I can help you.
+                  My focus is on user interface design and front end development.
                   <br/><br/>
                   Main skills:
                   <List>

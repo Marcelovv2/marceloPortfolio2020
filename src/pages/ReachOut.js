@@ -32,9 +32,10 @@ export default () => {
             <div className={'about-container'}>
                 <Paper elevation={2} className={classes.aboutPaper}>
                     <Typography variant={'body1'} color={'primary'}>
-                        ReachOut is a technology company, they where in need of their visual branding and a presentation website,
-                        they provide me with a clear vision of what the brand is and what their core message is.
-                        I presented them with different looks through the use of mood boards and then provided them with the source code for their responsive website.
+                        ReachOut is a technology company, they where in need of their visual branding and a presentation website.
+                        They provide me with a clear vision of what the brand is and what the core message should be.
+                        I presented them with different looks through the use of mood boards and then provided them with the source code for their responsive website.<br/>
+                        On this project I worked on:
                     </Typography>
                     <List>
                         <ListItem><Typography variant={'body1'} color={'primary'}>Branding design.</Typography></ListItem>

@@ -11,8 +11,10 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NSIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNzUiIGhlaWdodD0iMTAwIiBmaWxsPSIjZmFmYWZhIj48L3JlY3Q+CjxjaXJjbGUgY3g9Ijc1IiBjeT0iNTAiIHI9IjI4LjMlIiBzdHJva2Utd2lkdGg9IjEyIiBzdHJva2U9IiNmNmY2ZjYiIGZpbGw9Im5vbmUiPjwvY2lyY2xlPgo8Y2lyY2xlIGN4PSIwIiByPSIyOC4zJSIgc3Ryb2tlLXdpZHRoPSIxMiIgc3Ryb2tlPSIjZjRmNGY0IiBmaWxsPSJub25lIj48L2NpcmNsZT4KPGNpcmNsZSBjeT0iMTAwIiByPSIyOC4zJSIgc3Ryb2tlLXdpZHRoPSIxMiIgc3Ryb2tlPSIjZjJmMmYyIiBmaWxsPSJub25lIj48L2NpcmNsZT4KPC9zdmc+");
-}
+  background-color: #0d0d0d;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23151515' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%231c1c1c' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23242424' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%232c2c2c' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23343434' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%233b3b3b' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23434343' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;}
 
 a {
   text-decoration: none;

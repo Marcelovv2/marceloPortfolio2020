@@ -9,3 +9,22 @@
     justify-content: space-evenly;
     margin: 2.5% 0 0 0;
 }
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+}
+
+.logo-container img{ 
+    max-width: 20%;
+    height: auto;
+}
+
+.about-paper{
+    background: rgba( 255, 255, 255, 0.25 ) !important;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+    backdrop-filter: blur( 4px ) !important;
+    -webkit-backdrop-filter: blur( 4px ) !important;
+    border-radius: 10px !important;
+}

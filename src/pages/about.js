@@ -6,7 +6,6 @@ import { Link } from 'components/Router'
 import glassesImg from '../assets/withShadesNoGlassPop.png';
 import Paper from "@material-ui/core/Paper";
 import {List, ListItem, Button} from "@material-ui/core";
-import polyLines from '../assets/projectPolyLines.png';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -21,6 +20,10 @@ const useStyles = makeStyles((theme) => ({
     },
     aboutPaper:{
         padding:'5%',
+        backgroundColor: 'rgba( 255, 255, 255, 0.25 )',
+        boxShadow: '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )',
+        backdropFilter: 'blur(4px)',
+        borderRadius: '10px',
     }
 }));
 
@@ -36,21 +39,38 @@ export default () => {
                     relationship, and that if we combine our creative powers we can make great things happen.
                 </Typography>
                 <Typography variant={'body1'} color={'primary'}>
-                    I specialize in creating User Interfaces and developing websites and web applications. My career
-                    started when I was a salesman for an education company and decided that I wanted to be able to
-                    create something by myself. This lead me into a discovery phase where I lose the fear of
-                    creating technology, from there I have been studying the art and science of design and information
-                    technologies, now I can confidently navigate the process from idea, requirements
-                    elicitation, prototype design, graphic design, programming, team management to final delivery and
-                    maintenance, of course this depends on the size of the project but gratefully I been involved in all
-                    the stages.
+                    I create for the web and specialize in what you can see and interact with, user interface design is my trade. 
+                    I can make a landing page, presentation website or a web component. 
+                    I can adapt and work with your current technologies and collaborate with teams. 
                 </Typography>
                 <br/><br/>
-                <Typography variant={'body1'} color={'primary'}>
-                    I love problem solving and learning new things.<br/>
-                    I also love family and friends 👨‍👩‍👦‍👦🧍⛹️, good food🍲, good wine🍷, good beer🍻, good laughs🤣, killer workouts🏋️‍♂️and
-                    interesting stuff🌋.
+                <Typography variant={'h6'} color={'primary'}>
+                    Programming and markup
                 </Typography>
+                <ul>
+                    <li>Javascript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>React</li>
+                </ul>
+                <Typography variant={'h6'} color={'primary'}>
+                    Design and Prototyping
+                </Typography>
+                <ul>
+                    <li>Adobe XD</li>
+                    <li>Illustrator</li>
+                    <li>Photoshop</li>
+                </ul>
+                <Typography variant={'h6'} color={'primary'}>
+                    Experience with:
+                </Typography>
+                <ul>
+                    <li>Redux</li>
+                    <li>AWS</li>
+                    <li>.Net</li>
+                    <li>Node</li>
+                    <li>Email Development</li>
+                </ul>
             </Paper>
             <div className={'buttons-container'}>
                 <Link to={"/work"} style={{alignSelf: 'center'}}>

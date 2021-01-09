@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 export default () => (
   <div className={'homeContainer'}>
       <Typography variant={'h1'} className={'mainName'}>Marcelo Velasquez</Typography>
-      <typography variant={'caption'} color={'primary'}>Web Development, UI design</typography>
+      <typography variant={'caption'} className="caption">Web Development, UI design</typography>
       <div className={'links-container'}>
           <Link to={'/about'}>About</Link>
           <Link to={'/work'}>Work</Link>
@@ -33,7 +33,7 @@ export default () => (
       <div className={'mini-about-container'}>
           <Paper className={'about-paper'}>
               <Typography variant={'body1'} color={'primary'}>
-                  Hello 👋🏼 fellow human,
+                  Hello <span role="img" aria-label="hello">👋🏼</span>,
                   <br/><br/>
                   If you need a website or something to complement your web project I can help you.
                   My focus is on user interface design and front end development.
@@ -44,7 +44,7 @@ export default () => (
                           UI design
                       </ListItem>
                       <ListItem>
-                          Programming
+                          Front-end development
                       </ListItem>
                       <ListItem>
                           Bilingual English/Spanish
@@ -59,7 +59,7 @@ export default () => (
               </Link>
           </Paper>
           <div className={'img-background'}></div>
-          <img src={glassesImg} className={'glasses-img'}/>
+          <img src={glassesImg} className={'glasses-img'} alt=""/>
       </div>
   </div>
 )

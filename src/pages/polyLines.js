@@ -3,7 +3,7 @@ import {Typography} from "@material-ui/core";
 import './styles/projectsStyles.css';
 import {makeStyles} from "@material-ui/core/styles";
 import { Link } from 'components/Router'
-import collage from '../assets/PolyLinesCollage.png';
+import collage from '../assets/PolyLinesCollage.jpg';
 import Paper from "@material-ui/core/Paper";
 import {List, ListItem, Button} from "@material-ui/core";
 
@@ -21,6 +21,10 @@ const useStyles = makeStyles((theme) => ({
     },
     aboutPaper:{
         padding:'5%',
+        backgroundColor: 'rgba( 255, 255, 255, 0.25 )',
+        boxShadow: '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )',
+        backdropFilter: 'blur(4px)',
+        borderRadius: '10px',
     }
 }));
 

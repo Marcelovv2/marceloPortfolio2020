@@ -6,9 +6,9 @@ import { Link } from 'components/Router'
 import glassesImg from '../assets/withShadesNoGlassPop.png';
 import Paper from "@material-ui/core/Paper";
 import {List, ListItem, Button} from "@material-ui/core";
-import polyLines from '../assets/projectPolyLines.png';
-import reachOut from '../assets/projectReachOut.png';
-import teladoc from '../assets/projectTeladoc.png';
+import polyLines from '../assets/projectPolyLines.jpg';
+import reachOut from '../assets/projectReachOut.jpg';
+import teladoc from '../assets/projectTeladoc.jpg';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -31,7 +31,7 @@ export default () => (
                 <img src={polyLines} className={'project-img'}/>
             </div>
             <Link to={'/polyLines'}>
-                <Typography variant={'h6'} className={'project-title'} color={'secondary'}>
+                <Typography variant={'h6'} className={'project-title'} >
                     PolyLines Design
                 </Typography>
             </Link>

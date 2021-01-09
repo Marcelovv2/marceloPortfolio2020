@@ -18,12 +18,15 @@
 
 }
 .links-container a{
-    color: #0D0D0D;
+    color: rgb(242, 242, 242);
     text-decoration: underline;
     font-family: ethnocentric, sans-serif;
     font-size: 1.9rem;
     margin: 2.5%;
 
+}
+.caption{
+    color: rgb(242, 242, 242);
 }
 .mini-about-container{
     position: relative;

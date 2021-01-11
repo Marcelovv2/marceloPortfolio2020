@@ -9,7 +9,7 @@ import NavBar from './components/NavBar';
 import Particles from 'react-particles-js';
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-2L8L3T4X33');
-ReactGA.pageview(window.location.pathname + window.location.search);
+//ReactGA.pageview(window.location.pathname + window.location.search);
 
 let mediumImportanceHeadings = {
     fontFamily: 'ethnocentric, sans-serif',

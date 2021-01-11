@@ -7,6 +7,8 @@ import { Link } from 'components/Router'
 import glassesImg from '../assets/withShadesNoGlassPop.png';
 import Paper from "@material-ui/core/Paper";
 import {List, ListItem, Button} from "@material-ui/core";
+import ReactGA from 'react-ga';
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const useStyles = makeStyles((theme) => ({
     root: {

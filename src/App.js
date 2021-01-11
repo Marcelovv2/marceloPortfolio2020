@@ -9,7 +9,8 @@ import NavBar from './components/NavBar';
 import Particles from 'react-particles-js';
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-2L8L3T4X33');
-//ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 
 let mediumImportanceHeadings = {
     fontFamily: 'ethnocentric, sans-serif',
@@ -19,17 +20,7 @@ let mediumImportanceHeadings = {
 }
 
 let theme = createMuiTheme({
-    overrides: {
-        // Style sheet name 
-        MuiInputBase: {
-          // Name of the rule
-          text: {
-            // Some CSS
-            color: '#ECE2D5',
-          },
-          color: '#ECE2D5'
-        },
-      },
+
     palette: {
         primary: {
             light: '#343434',

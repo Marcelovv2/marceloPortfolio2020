@@ -7,8 +7,6 @@ import { Link } from 'components/Router'
 import glassesImg from '../assets/withShadesNoGlassPop.png';
 import Paper from "@material-ui/core/Paper";
 import {List, ListItem, Button} from "@material-ui/core";
-import ReactGA from 'react-ga';
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -26,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 export default () => (
   <div className={'homeContainer'}>
       <Typography variant={'h1'} className={'mainName'}>Marcelo Velasquez</Typography>
-      <typography variant={'caption'} className="caption">Web Development, UI design</typography>
+      <Typography variant={'caption'} className="caption">Web Development, UI design</Typography>
       <div className={'links-container'}>
           <Link to={'/about'}>About</Link>
           <Link to={'/work'}>Work</Link>
@@ -41,7 +39,8 @@ export default () => (
                   My focus is on user interface design and front end development.
                   <br/><br/>
                   Main skills:
-                  <List>
+              </Typography>
+              <List>
                       <ListItem>
                           UI design
                       </ListItem>
@@ -52,7 +51,6 @@ export default () => (
                           Bilingual English/Spanish
                       </ListItem>
                   </List>
-              </Typography>
               <Link to={"/contact"} style={{alignSelf: 'center'}}>
                   <Button
                       variant={'contained'}

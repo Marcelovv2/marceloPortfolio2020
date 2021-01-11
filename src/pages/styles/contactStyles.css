@@ -9,8 +9,19 @@ h1{
     width: 100%;
     text-align: center;
 }
- .contactInput{
-     width: 90%;
-     display: block;
-     margin: 5px !important;
- }
+.contactInput{
+    width: 90%;
+    display: block;
+    margin: 5px !important;
+}
+
+.contactInput > input{
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+.MuiInput-input{
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.MuiInputBase-input .MuiOutlinedInput-input{
+    color: rgba(255, 255, 255, 0.87) !important;
+}

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Root, Routes, addPrefetchExcludes } from 'react-static'
 //
 import { Link, Router } from 'components/Router'
@@ -9,7 +9,7 @@ import NavBar from './components/NavBar';
 import Particles from 'react-particles-js';
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-2L8L3T4X33');
-ReactGA.pageview(window.location.pathname + window.location.search);
+
 
 
 let mediumImportanceHeadings = {
@@ -106,6 +106,9 @@ theme = responsiveFontSizes(theme);
 addPrefetchExcludes(['dynamic'])
 
 function App() {
+  useEffect(() => {    
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    });
   return (
       <ThemeProvider theme={theme}>
           <Root>

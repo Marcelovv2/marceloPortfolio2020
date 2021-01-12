@@ -30,6 +30,14 @@ export default {
         location: path.resolve('./src/pages'),
       },
     ],
+    [
+      'react-static-plugin-google-tag-manager',
+      {
+        // example configuration
+        id: 'GTM-K82WJHL',
+        debug: true,
+      },
+    ],
     require.resolve('react-static-plugin-reach-router'),
     require.resolve('react-static-plugin-sitemap'),
   ],

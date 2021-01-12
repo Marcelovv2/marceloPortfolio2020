@@ -10,7 +10,9 @@ import Particles from 'react-particles-js';
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-2L8L3T4X33');
 
-
+if (typeof window !== 'undefined') {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+}
 
 let mediumImportanceHeadings = {
     fontFamily: 'ethnocentric, sans-serif',
@@ -106,9 +108,9 @@ theme = responsiveFontSizes(theme);
 addPrefetchExcludes(['dynamic'])
 
 function App() {
-  useEffect(() => {    
-    ReactGA.pageview(window.location.pathname + window.location.search);
-    });
+//   useEffect(() => {    
+    
+//     });
   return (
       <ThemeProvider theme={theme}>
           <Root>

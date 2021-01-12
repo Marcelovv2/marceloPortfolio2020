@@ -35,7 +35,7 @@ export default {
       {
         // example configuration
         id: 'GTM-K82WJHL',
-        debug: true,
+        debug: false,
       },
     ],
     require.resolve('react-static-plugin-reach-router'),
